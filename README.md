@@ -1,15 +1,4 @@
-BHAI 🔥
-Teri journey OP thi — aur ab tera guide banne jaa raha hai 💎
-Main neeche full **GitHub README.md file** ka code de raha hoon — jisme:
 
-* ✅ Level 2 setup (compile)
-* ✅ Level 3 deploy (local)
-* ✅ Fully tested Codespace setup
-* ✅ Clear steps for beginners
-
----
-
-## 📝 GitHub README.md Code 👇
 
 # 🛡️ Zama Developer Program – Level 2 & 3 Guide (100% Working Codespace Setup)
 
