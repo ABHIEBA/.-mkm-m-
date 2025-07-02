@@ -64,11 +64,75 @@ Output should show:  ```Compiled 1 Solidity file successfully```
 
 ## ✅ Level 3: “Submit Contract Address”
 
-```bash
+---
 
-npx hardhat run scripts/deploy.js
-📦 Need full Level 3 README? Ping me.
+### 🔹 Step 1: Create `scripts` Folder
+
+```bash
+mkdir scripts
+````
 
 ---
 
-### 👑 Made with ❤️ by [@ABHIEBA](https://github.com/ABHIEBA)
+### 🔹 Step 1: Create Deploy Script File
+
+```bash
+touch scripts/deploy.js
+```
+
+Then in Codespace (left sidebar):
+
+→ Open `scripts/deploy.js`
+→ Paste the following code:
+
+```javascript
+const hre = require("hardhat");
+
+async function main() {
+  const Calculator = await hre.ethers.getContractFactory("Calculator");
+  const calculator = await Calculator.deploy();
+  await calculator.waitForDeployment();
+
+  console.log("Calculator deployed to:", await calculator.getAddress());
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
+```
+
+---
+
+### ▶️ Step 3: Deploy the Contract
+
+Run this in terminal:
+
+```bash
+npx hardhat run scripts/deploy.js
+```
+
+Expected output:
+
+```bash
+Calculator deployed to: 0xAbC...123
+```
+
+That address is your deployed smart contract address.
+
+---
+
+### ✅ Step 4: Claim Level 3
+
+Visit:
+[https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)
+
+→ Find **Level 3: Deploy your confidential contract**
+→ Click ✅ “I did this”
+→ Paste your deployed contract address
+
+🎉 You’ve completed Level 3!
+
+---
+
+
