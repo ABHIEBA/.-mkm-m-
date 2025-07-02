@@ -133,4 +133,19 @@ Visit:
 
 ---
 
+---
+
+## 🙌 Guide Created by: [@earnbyabhi](https://x.com/earnbyabhi)
+
+Follow & Stay Connected for More Zama Alpha, Airdrops & Dev Tutorials
+
+- 📍 X (Twitter): [@earnbyabhi](https://x.com/earnbyabhi)
+- 💬 Telegram: [@earnbyabhi23](https://t.me/earnbyabhi23)
+- ▶️ YouTube: [EarnByAbhi](https://www.youtube.com/@EarnByAbhi)
+
+> 🧠 Join our Telegram Community  
+For live help, updates, & early alpha drops  
+👉 [https://t.me/earnbyabhi23](https://t.me/earnbyabhi23)
+
+---
 
