@@ -50,42 +50,18 @@ npm install
 npm install @fhenixprotocol/contracts --save
 ```
 
-
-• IF ERROR : ```npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps```
----
-
-### 🛠️ Step 5: Compile the Contract
-
+## 🔹 Step 5: Compile the Contract
+```bash
 npx hardhat compile
+```
+
 ✅ Output should show:  
-Compiled 1 Solidity file successfully
+```Compiled 1 Solidity file successfully```
 
 ---
 
-### ✅ Step 6: Claim Level 2 on Guild
+## 🔹 Step 6: Claim Level 2 on Guild: https://guild.xyz/zama/developer-program  
 
-1. Visit: https://guild.xyz/zama/developer-program  
-2. Find Level 2 → Click ✅ “I did this”
-
-🎉 Level 3 unlock ho jayega.
-
----
-
-## 🧾 Quick Recap
-
-# Clean + Create contract
-rm -rf contracts/*
-mkdir contracts
-touch contracts/Calculator.sol
-
-# Install packages
-npm install
-npm install @fhenixprotocol/contracts --save
-npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps
-
-# Compile
-npx hardhat compile
----
 
 ## 🔥 Ready for Level 3?
 
