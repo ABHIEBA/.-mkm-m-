@@ -80,7 +80,7 @@ mkdir scripts
 touch scripts/deploy.js
 ```
 
-# Then in Codespace (left sidebar):
+• Then in Codespace (left sidebar):
 
 → Open `scripts/deploy.js`
 → Paste the following code:
