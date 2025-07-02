@@ -8,7 +8,7 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ---
 
-### 🧰 Step 1: Open Template in Codespace
+## 🔹 Step 1: Open Template in Codespace
 
 🔗 Open this GitHub repo:  
 https://github.com/zama-ai/fhevm-hardhat-template
@@ -18,11 +18,13 @@ https://github.com/zama-ai/fhevm-hardhat-template
 
 ---
 
-### 🧹 Step 2: Clean and Recreate Contracts Folder
+## 🔹 Step 2: Clean and Recreate Contracts Folder
+```bash
 
 rm -rf contracts/*
 mkdir contracts
 touch contracts/Calculator.sol
+```
 ---
 
 ### 🧠 Step 3: Add Calculator Contract
