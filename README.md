@@ -54,8 +54,7 @@ npm install @fhenixprotocol/contracts --save
 npx hardhat compile
 ```
 
-Output should show:  
-```Compiled 1 Solidity file successfully```
+Output should show:  ```Compiled 1 Solidity file successfully```
 
 ---
 
