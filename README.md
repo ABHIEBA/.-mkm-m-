@@ -4,7 +4,7 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ---
 
-## ✅ Level 2: “Write Your First Confidential Smart Contract”
+# ✅ Level 2: “Write Your First Confidential Smart Contract”
 
 ### 🔹 STEP 1: Open Template in Codespace
 1. Go to 👉 https://github.com/zama-ai/fhevm-hardhat-template
@@ -56,12 +56,12 @@ npx hardhat compile
 
 Output should show:  ```Compiled 1 Solidity file successfully```
 
-
+---
 ### 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
 
 ---
 
-## ✅ Level 3: “Submit Contract Address”
+# ✅ Level 3: “Submit Contract Address”
 
 ---
 
@@ -103,7 +103,7 @@ main().catch((error) => {
 
 ---
 
-### ▶️ Step 3: Deploy the Contract
+### 🔹 Step 3: Deploy the Contract
 
 Run this in terminal:
 
@@ -121,7 +121,7 @@ That address is your deployed smart contract address.
 
 ---
 
-#### ▶️ Step 4: Claim Level 3
+### 🔹 Step 4: Claim Level 3
 
 Visit:
 [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)
