@@ -62,6 +62,7 @@ npx hardhat compile
 
 ## 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
 
+---
 
 ## ✅ Level 3: “Submit Contract Address”
 
