@@ -29,6 +29,7 @@ touch contracts/Calculator.sol
 
 Paste this inside contracts/Calculator.sol:
 
+/*
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -37,6 +38,7 @@ contract Calculator {
         return a + b;
     }
 }
+*/
 ✅ This avoids FHE errors. Works perfectly for Level 2.
 
 ---
@@ -58,7 +60,7 @@ Compiled 1 Solidity file successfully
 
 ### ✅ Step 6: Claim Level 2 on Guild.xyz
 
-🔗 Go to → [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)  
+🔗 Go to → https://guild.xyz/zama/developer-program  
 → Find Level 2: Write your first smart contract  
 → Click ✅ “I did this”
 
@@ -82,9 +84,4 @@ Compiled 1 Solidity file successfully
 ## 🔥 Need Level 3 Guide?
 
 Next Step:  
-> npx hardhat run scripts/deploy.js  
-📦 Want full Level 3 deploy+claim guide? Check [Level 3 README →](#)
-
----
-
-### 👑 Made with ❤️ by [@ABHIEBA](https://github.com/ABHIEBA)
+> npx hardhat run scripts/deploy.js
