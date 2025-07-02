@@ -40,7 +40,6 @@ contract Calculator {
     }
 }
 ```
-✅ Simple contract without FHE types — works without error.
 
 ---
 
@@ -55,7 +54,7 @@ npm install @fhenixprotocol/contracts --save
 npx hardhat compile
 ```
 
-✅ Output should show:  
+Output should show:  
 ```Compiled 1 Solidity file successfully```
 
 ---
