@@ -4,9 +4,9 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ---
 
-### ✅ Level 2: “Write Your First Confidential Smart Contract”
+## ✅ Level 2: “Write Your First Confidential Smart Contract”
 
-## 🔹 STEP 1: Open Template in Codespace
+### 🔹 STEP 1: Open Template in Codespace
 1. Go to 👉 https://github.com/zama-ai/fhevm-hardhat-template
 2. Click the green Code button
 3. Select → Open with Codespaces → + New codespace
@@ -14,7 +14,7 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ---
 
-## 🔹 Step 2: Clean and Recreate Contracts Folder
+### 🔹 Step 2: Clean and Recreate Contracts Folder
 ```bash
 
 rm -rf contracts/*
@@ -23,7 +23,7 @@ touch contracts/Calculator.sol
 ```
 ---
 
-## 🔹 Step 3: Add Calculator Contract
+### 🔹 Step 3: Add Calculator Contract
 
 1. Open ```contracts``` 
 2. Right Click 
@@ -43,13 +43,13 @@ contract Calculator {
 
 ---
 
-## 🔹 Step 4: Install Required Packages
+### 🔹 Step 4: Install Required Packages
 ```bash
 npm install
 npm install @fhenixprotocol/contracts --save
 ```
 
-## 🔹 Step 5: Compile the Contract
+### 🔹 Step 5: Compile the Contract
 ```bash
 npx hardhat compile
 ```
@@ -58,7 +58,7 @@ Output should show:  ```Compiled 1 Solidity file successfully```
 
 ---
 
-## 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
+### 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
 
 ---
 
