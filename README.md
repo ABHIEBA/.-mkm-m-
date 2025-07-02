@@ -66,7 +66,7 @@ Output should show:  ```Compiled 1 Solidity file successfully```
 
 ---
 
-### 🔹 Step 1: Create `scripts` Folder
+### 🔹 Step 1: Create scripts Folder
 
 ```bash
 mkdir scripts
@@ -74,13 +74,13 @@ mkdir scripts
 
 ---
 
-### 🔹 Step 1: Create Deploy Script File
+### 🔹 Step 2: Create Deploy Script File
 
 ```bash
 touch scripts/deploy.js
 ```
 
-Then in Codespace (left sidebar):
+# Then in Codespace (left sidebar):
 
 → Open `scripts/deploy.js`
 → Paste the following code:
