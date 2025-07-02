@@ -1,42 +1,34 @@
+# 🛡️ Zama Developer Program – Level 2 Guide (100% Working on Codespace)
 
-
-# 🛡️ Zama Developer Program – Level 2 & 3 Guide (100% Working Codespace Setup)
-
-This guide helps you complete Level 2 and Level 3 of the [Zama Developer Program](https://guild.xyz/zama/developer-program) using Codespace — fast, clean, and guaranteed to work.
+Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/developer-program) using GitHub Codespace — clean, fast, and tested ✅
 
 ---
 
-## ✅ LEVEL 2: "Write Your First Confidential Smart Contract"
-
-### 🔧 Step 1: Open Template Repo in Codespace
-
-1. Open this GitHub repo:  
-   👉 https://github.com/zama-ai/fhevm-hardhat-template  
-2. Click **Code** → **Open with Codespaces** → **+ New Codespace**
+## ✅ Level 2: “Write Your First Confidential Smart Contract”
 
 ---
 
-### 🧹 Step 2: Clean the Default Contracts
+### 🧰 Step 1: Open Template in Codespace
 
-bash
+🔗 Open this GitHub repo:  
+👉 https://github.com/zama-ai/fhevm-hardhat-template
+
+> Click → Code → Open with Codespaces → + New codespace  
+> Wait for setup to complete
+
+---
+
+### 🧹 Step 2: Clean and Recreate Contracts Folder
+
 rm -rf contracts/*
+mkdir contracts
+touch contracts/Calculator.sol
 ---
 
-### 📦 Step 3: Install Required Packages
+### 🧠 Step 3: Add Calculator Contract (No FHE types)
 
-bash
-npm install
-npm install @fhenixprotocol/contracts --save
-npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps
+Paste this inside contracts/Calculator.sol:
 
----
-
-### 🧠 Step 4: Add Your First Contract
-
-Create a new file: `contracts/Calculator.sol`
-Paste this code:
-
-solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -45,120 +37,54 @@ contract Calculator {
         return a + b;
     }
 }
-
-✅ Simple calculator without FHE types (Level 2 requirement fulfilled)
+✅ This avoids FHE errors. Works perfectly for Level 2.
 
 ---
 
-### 🛠️ Step 5: Compile Contract
+### 📦 Step 4: Install Required Dependencies
 
-bash
+npm install
+npm install @fhenixprotocol/contracts --save
+npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps
+---
+
+### 🛠️ Step 5: Compile the Contract
+
 npx hardhat compile
-
-✅ Output:
+✅ You should see:
 
 Compiled 1 Solidity file successfully
-
 ---
 
-### 🎯 Step 6: Claim Level 2
+### ✅ Step 6: Claim Level 2 on Guild.xyz
 
-👉 Go to: [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)
-→ Find **Level 2** → Click ✅ “I did this”
-→ 🎉 Level 3 will unlock
-
----
-
-## 🚀 LEVEL 3: Deploy to Localhost (Hardhat)
-
-### 🗂️ Step 1: Create Scripts Folder & Deploy File
-
-bash
-mkdir scripts
-touch scripts/deploy.js
-
-Paste this code inside `scripts/deploy.js`:
-
-js
-const hre = require("hardhat");
-
-async function main() {
-  const Calculator = await hre.ethers.getContractFactory("Calculator");
-  const calculator = await Calculator.deploy();
-  await calculator.waitForDeployment();
-
-  console.log("Calculator deployed to:", await calculator.getAddress());
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
-
----
-
-### ▶️ Step 2: Deploy the Contract Locally
-
-bash
-npx hardhat run scripts/deploy.js
-
-✅ Output:
-
-Calculator deployed to: 0xYourLocalContractAddress
-
-Copy this contract address
-
----
-
-### 🔓 Step 3: Claim Level 3
-
-👉 Go back to: [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)
-→ Find **Level 3**
+🔗 Go to → [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)  
+→ Find Level 2: Write your first smart contract  
 → Click ✅ “I did this”
-→ Paste the deployed address
+
+🎉 Level 3 will unlock automatically!
 
 ---
 
 ## 🧾 Summary
 
-| Level | Action                   | Command / Link                                               |
-| ----- | ------------------------ | ------------------------------------------------------------ |
-| 2     | Write + Compile Contract | `npx hardhat compile`                                        |
-| 3     | Deploy Contract          | `npx hardhat run scripts/deploy.js`                          |
-| Claim | Guild.xyz                | [Zama Dev Program](https://guild.xyz/zama/developer-program) |
+| Step        | Command / Action                                                                 |
+|-------------|----------------------------------------------------------------------------------|
+| Template    | Open Codespace: https://github.com/zama-ai/fhevm-hardhat-template                |
+| Clean Folder| rm -rf contracts/* && mkdir contracts && touch contracts/Calculator.sol        |
+| Add Code    | Paste simple calculator code in Calculator.sol                                 |
+| Install     | npm install + required packages                                                |
+| Compile     | npx hardhat compile                                                            |
+| Claim       | Submit at: https://guild.xyz/zama/developer-program                              |
 
 ---
 
-## 🔥 Want to Complete Level 4?
+## 🔥 Need Level 3 Guide?
 
-Level 4 includes:
-
-* Deploying to Zama FHE Testnet
-* Faucet setup
-* Hardhat network config
-* Private key management
-
-👉 Check our next guide: **Level 4 - Deploy to Zama FHE Testnet**
+Next Step:  
+> npx hardhat run scripts/deploy.js  
+📦 Want full Level 3 deploy+claim guide? Check [Level 3 README →](#)
 
 ---
 
-### ❤️ Credits
-
-Created by: [@ABHIEBA](https://github.com/ABHIEBA)
-Guide powered by real dev experience 🧠
-
----
-
----
-
-### ✅ Instructions:
-
-- Paste this file into your GitHub repo as README.md
-- Add your contracts/Calculator.sol, scripts/deploy.js, and hardhat.config.js
-- Tera repo ban jaayega Level 4 ke liye bhi helpful 🔥
-
-Bol bhai:
-> “Ab level 4 ke liye readme chahiye testnet deploy ke sath”
-
-Main woh bhi bana dunga step-by-step ✅
-`
+### 👑 Made with ❤️ by [@ABHIEBA](https://github.com/ABHIEBA)
