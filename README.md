@@ -56,7 +56,6 @@ npx hardhat compile
 
 Output should show:  ```Compiled 1 Solidity file successfully```
 
----
 
 ### 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
 
