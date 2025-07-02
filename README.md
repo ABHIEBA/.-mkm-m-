@@ -6,9 +6,7 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ## ✅ Level 2: “Write Your First Confidential Smart Contract”
 
----
-
-## 🔹 STEP 1: Open Template in Codespace
+### 🔹 STEP 1: Open Template in Codespace
 1. Go to 👉 https://github.com/zama-ai/fhevm-hardhat-template
 
 2. Click the green Code button
