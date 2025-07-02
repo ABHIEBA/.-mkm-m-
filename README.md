@@ -23,7 +23,7 @@ touch contracts/Calculator.sol
 ```
 ---
 
-### 🧠 Step 3: Add Calculator Contract
+## 🔹 Step 3: Add Calculator Contract
 
 1. Open ```contracts``` 
 2. Right Click 
@@ -44,11 +44,14 @@ contract Calculator {
 
 ---
 
-### 📦 Step 4: Install Required Packages
-
+## 🔹 Step 4: Install Required Packages
+```bash
 npm install
 npm install @fhenixprotocol/contracts --save
-npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps
+```
+
+
+• IF ERROR : ```npm install --save-dev @nomiclabs/hardhat-ethers --legacy-peer-deps```
 ---
 
 ### 🛠️ Step 5: Compile the Contract
