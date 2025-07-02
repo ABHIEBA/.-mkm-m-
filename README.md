@@ -135,12 +135,12 @@ Visit:
 
 ---
 
-## 🙌 Guide Created by: [@earnbyabhi](https://x.com/earnbyabhi)
+## 🙌 Guide Created by: [@EarnByAbhi](https://x.com/earnbyabhi)
 
 Follow & Stay Connected for More Zama Alpha, Airdrops & Dev Tutorials
 
-- 📍 X (Twitter): [@earnbyabhi](https://x.com/earnbyabhi)
-- 💬 Telegram: [@earnbyabhi23](https://t.me/earnbyabhi23)
+- 📍 X (Twitter): [@EarnByAbhi](https://x.com/earnbyabhi)
+- 💬 Telegram: [@EarnByAbhi23](https://t.me/earnbyabhi23)
 - ▶️ YouTube: [EarnByAbhi](https://www.youtube.com/@EarnByAbhi)
 
 > 🧠 Join our Telegram Community  
