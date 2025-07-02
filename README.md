@@ -60,12 +60,12 @@ npx hardhat compile
 
 ---
 
-## 🔹 Step 6: Claim Level 2 on Guild: https://guild.xyz/zama/developer-program  
+## 🔹 Step 6: Claim Level 2 on Guild - https://guild.xyz/zama/developer-program  
 
 
-## 🔥 Ready for Level 3?
+## ✅ Level 3: “Submit Contract Address”
 
-Use:
+```bash
 
 npx hardhat run scripts/deploy.js
 📦 Need full Level 3 README? Ping me.
