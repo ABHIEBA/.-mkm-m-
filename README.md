@@ -122,13 +122,12 @@ That address is your deployed smart contract address.
 
 ---
 
-### ✅ Step 4: Claim Level 3
+#### ▶️ Step 4: Claim Level 3
 
 Visit:
 [https://guild.xyz/zama/developer-program](https://guild.xyz/zama/developer-program)
 
 → Find **Level 3: Deploy your confidential contract**
-→ Click ✅ “I did this”
 → Paste your deployed contract address
 
 🎉 You’ve completed Level 3!
