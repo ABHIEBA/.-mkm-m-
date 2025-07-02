@@ -25,7 +25,10 @@ touch contracts/Calculator.sol
 
 ### 🧠 Step 3: Add Calculator Contract
 
-Open contracts ```/Calculator.sol``` and paste this code:
+1. Open ```contracts``` 
+2. Right Click 
+3. Add file
+4. Create ```/Calculator.sol``` and paste this code:
 ```bash
 
 // SPDX-License-Identifier: MIT
