@@ -8,11 +8,8 @@ Complete Level 2 of the [Zama Developer Program](https://guild.xyz/zama/develope
 
 ### 🔹 STEP 1: Open Template in Codespace
 1. Go to 👉 https://github.com/zama-ai/fhevm-hardhat-template
-
 2. Click the green Code button
-
 3. Select → Open with Codespaces → + New codespace
-
 4. Wait for Codespace to fully load and initialize
 
 ---
