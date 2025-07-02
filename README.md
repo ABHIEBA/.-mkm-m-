@@ -25,9 +25,9 @@ touch contracts/Calculator.sol
 
 ### 🧠 Step 3: Add Calculator Contract
 
-Open contracts/Calculator.sol and paste this code:
+Open contracts ```/Calculator.sol``` and paste this code:
+```bash
 
-/*
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -36,7 +36,7 @@ contract Calculator {
         return a + b;
     }
 }
-*/
+```
 ✅ Simple contract without FHE types — works without error.
 
 ---
